@@ -402,6 +402,7 @@ form textarea {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   padding-top:0;
+  padding-bottom:100px;
 }
 
 .media_img {
