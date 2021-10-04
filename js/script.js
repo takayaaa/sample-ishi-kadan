@@ -29,9 +29,9 @@ $(function(){
 $(function() {
     $('#vegas').vegas({
         slides: [
-            { src: '/images/mainbg01.jpg'},
-            { src: '/images/mainbg02.jpg'},
-            { src: '/images/mainbg03.jpg'},
+            { src: 'https://github.com/takayaaa/sample-ishi-kadan/blob/main/images/mainbg01.jpg?raw=true'},
+            { src: 'https://github.com/takayaaa/sample-ishi-kadan/blob/main/images/mainbg02.jpg?raw=true'},
+            { src: 'https://github.com/takayaaa/sample-ishi-kadan/blob/main/images/menu03.jpg?raw=true'},
             
         ],
         transition: 'fade'
@@ -47,15 +47,15 @@ jQuery(window).on('scroll', function () {
     });
 
 
-    $(function() {
-        $('#vegas').vegas({
-            slides: [
-                { src: '/img/mainbg01.jpg'},
-                { src: '/img/mainbg02.jpg'},
-                { src: '/img/mainbg03.jpg'},
+//     $(function() {
+//         $('#vegas').vegas({
+//             slides: [
+//                 { src: '/img/mainbg01.jpg'},
+//                 { src: '/img/mainbg02.jpg'},
+//                 { src: '/img/mainbg03.jpg'},
                 
-            ],
-            transition: 'fade'
-        });
-    });    
+//             ],
+//             transition: 'fade'
+//         });
+//     });    
     
