@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico">
+    <title>お部屋について-石井花壇</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+    <!-- line awesome -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/oheya.css">
+
+</head>
+
+<body class="drawer drawer--right">
+    <!-- header -->
+    <header class="header">
+        <div class="header_inner">
+            <div class="header_left">
+                <h1 class="header_title">
+                    <a class="header_title_link" href="./index.html">
+                        <img class="header_logo" src="./images/sub-header-logo.png" alt="石井花壇">
+                    </a>
+                </h1>
+                <nav class="header_nav">
+                    <ul class="header_nav_items">
+                        <li class="header_nav_list">
+                            <a class="header_nav_link" href="./oheya.html">
+                                お部屋
+
+                            </a>
+                        </li>
+                        <li class="header_nav_list">
+                            <a class="header_nav_link" href="./cuisine.html">
+                                お料理
+
+                            </a>
+                        </li>
+                        <li class="header_nav_list">
+                            <a class="header_nav_link" href="./onsen.html">
+                                温泉
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header_right">
+                <div class="header_btn">
+                    <a href="" class="js-modal-open">宿泊予約</a>
+                </div>
+                <!-- modal -->
+                <div class="modal js-modal">
+                    <div class=" js-modal-close"></div>
+                    <div class="modal__content">
+                        <form>
+                            <p class="form_title">宿泊予約</p>
+                            お名前<input type="text" name="お名前" placeholder="例：石井正悟" class="form_name">
+
+                            メールアドレス<input type="email" name="メールアドレス" placeholder="例：Example@example.com"
+                                class="form_email">
+
+                            お問い合わせ内容<textarea name="お問い合わせ内容" placeholder="お問い合わせ内容を記入してください"></textarea><br>
+                            <div class="form_button"><a href=""><input type="submit" value="送信する"></a></div>
+                            <a class="js-modal-close" href=""><i class="las la-times la-2x"></i></a>
+                        </form>
+                    </div>
+                    <!--modal__inner-->
+                </div>
+                <!--modal-->
+            </div>
+        </div>
+    </header>
+
+    <!-- drawer -->
+    <!-- ハンバーガーボタン -->
+    <header role="banner" class="banner">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <!-- ナビゲーションの中身 -->
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li><a class="drawer-menu-item" href="./oheya.html">お部屋</a></li>
+                <li><a class="drawer-menu-item" href="./cuisine.html">お料理</a></li>
+                <li><a class="drawer-menu-item" href="./onsen.html">温泉</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- top -->
+    <section class="top">
+        <div class="top_title">お部屋</div>
+    </section>
+    <section class="message" data-aos="fade-up">
+        創業より受け継がれてきた石井花壇の和の造り<br>
+        温海の雄大な絶景を堪能していただけるように設計された客室<br>
+        ゆるやかに流れ行く時間に身を委ねて
+    </section>
+
+    <section class="media">
+        <div class="media_inner inner">
+            <div class="media_wrap">
+                <img src="./images/oheya01.jpg" alt="" class="media_img" data-aos="fade-up">
+                <div class="media_box" data-aos="fade-up">
+                    <div class="media_title">温泉付き客室</div>
+                    <div class="media_comment">温海の源泉かけ流し露天風呂付き客室になります。<br>
+                        あなただけの上質な安らぎのひとときを。</div>
+                    <div class="media_description">＊部屋数に限りがございます。<br>
+                        ＊洗い場はないため、お体を先に大浴場でお流しになって頂く必要があります。
+                    </div>
+                </div>
+            </div>
+            <div class="media_wrap">
+                <img src="./images/oheya02.jpg" alt="" class="media_img" data-aos="fade-up">
+                <div class="media_box2" data-aos="fade-up">
+                    <div class="media_title">庭園付き客室</div>
+                    <div class="media_comment">庭園付きの客室になります。<br>
+                        お庭を見ながら、ほっとするひとときをお過ごしください。</div>
+                    <div class="media_description">＊お庭は複数のお客様と囲む形になります。<br>
+                        ＊部屋数に限りがあります。<br>
+                        ＊ご希望の方は「お抹茶/500円」をルームサービスさせていただきます。
+                    </div>
+                </div>
+            </div>
+            <div class="media_wrap">
+                <img src="./images/oheya03.jpg" alt="" class="media_img" data-aos="fade-up">
+                <div class="media_box" data-aos="fade-up">
+                    <div class="media_title">一般客室</div>
+                    <div class="media_comment">最もベーシックな客室になります。伝統の中にモダンさを取り入れた<br>
+                        内装となっており、とても過ごしやすくしていただけます。</div>
+                    <div class="media_description">＊全室お部屋より日本海を望むことができます。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_items">
+                <div class="footer_item"><a href="">温泉</a></div>
+                <div class="footer_item"><a href="">お料理</a></div>
+                <div class="footer_item"><a href="">お部屋</a></div>
+            </div>
+            <div class="footer_logo logo"><img src="./images/logo02.png" alt=""></div>
+            <div class="footer_title">石井花壇</div>
+            <div class="footer_info">
+                <div class="footer_above">
+                    <p class="footer_post">〒000-0000</p>
+                    <p class="footer_address">山形県鶴岡市xxxxxxxxxxx</p>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_tel">TEL.000-0000-0000</div>
+                    <div class="footer_fax">FAX.00-0000-0000</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_black">
+            <div class="footer_copyright">
+                Copyright © 石井花壇 All Rights Reserved.
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.drawer').drawer();
+        });
+    </script>
+
+
+
+</body>
+
+</html>
