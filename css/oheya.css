@@ -150,7 +150,7 @@ header {
 
 .header_btn a::before {
   content: "";
-  background: url(/images/calender.png) no-repeat center center/contain;
+  background: url(https://github.com/takayaaa/sample-ishi-kadan/blob/main/images/calender.png?raw=true) no-repeat center center/contain;
   width: 22px;
   height: 22px;
   display: inline-block;
