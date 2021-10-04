@@ -344,6 +344,8 @@ form textarea {
 
 .media {
   margin-top: 78px;
+  background:url(https://github.com/takayaaa/sample-ishi-kadan/blob/main/images/bg.png?raw=true) no-repeat center center/cover;
+  
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -369,7 +371,8 @@ form textarea {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-bottom: 220px;
+  margin-bottom: 160px;
+  padding-top: 100px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -398,6 +401,7 @@ form textarea {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  padding-top:0;
 }
 
 .media_img {
