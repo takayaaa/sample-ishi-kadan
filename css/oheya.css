@@ -370,7 +370,7 @@ form textarea {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-bottom: 220px;
+  margin-bottom: 170px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -430,7 +430,7 @@ form textarea {
 .media_box {
   position: absolute;
   content: "";
-  top: 45%;
+  top: 35%;
   left: 51%;
 }
 
